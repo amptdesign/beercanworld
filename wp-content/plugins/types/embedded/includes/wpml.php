@@ -808,12 +808,11 @@ function wpcf_wpml_group_form_filter_terms_filter( $terms ) {
  * @param type $group
  * @return type
  */
-function wpcf_wpml_post_group_filter_taxonomies( $group, $post, $context,
-        $post_terms ) {
-
+function wpcf_wpml_post_group_filter_taxonomies( $group, $post, $context, $post_terms )
+{
     global $sitepress, $wpdb;
 
-    if ( empty( $post->ID ) ) {
+    if (empty( $post->ID )) {
         return $group;
     }
 
@@ -1028,7 +1027,7 @@ function wpcf_wpml_is_translated_profile_page( $field ) {
  */
 function wpcf_wpml_field_is_copy( $field ) {
     if ( !defined( 'WPML_TM_VERSION' ) ) return false;
-    return isset( $field['wpml_action'] ) && $field['wpml_action'] === 1;
+    return isset( $field['wpml_action'] ) && intval( $field['wpml_action'] ) === 1;
 }
 
 /**
@@ -1039,7 +1038,7 @@ function wpcf_wpml_field_is_copy( $field ) {
  */
 function wpcf_wpml_field_is_translated( $field ) {
     if ( !defined( 'WPML_TM_VERSION' ) ) return false;
-    return isset( $field['wpml_action'] ) && $field['wpml_action'] === 2;
+    return isset( $field['wpml_action'] ) && intval( $field['wpml_action'] ) === 2;
 }
 
 /**
@@ -1230,6 +1229,10 @@ function wpcf_wpml_warnings_init()
     }
 }
 
+
+/**
+ * Display all relevant WPML admin notices of the "wp-types" group.
+ */
 function wpcf_wpml_warning()
 {
 	if(!defined('WPML_ST_PATH') || !class_exists( 'ICL_AdminNotifier' )) return;
