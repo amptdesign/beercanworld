@@ -34,7 +34,8 @@ if ((jwOpt::get_option('footer_featured_show', 'off') == 'homepage' && is_front_
         <?php if (jwOpt::get_option('show_copyright', 'on') == 'on') { ?>
             <div id="copyright" class="fullwidth-block row footer-content">            
                 <div class="col-lg-6">
-                    <?php echo jwOpt::get_option('footer_text', ''); ?>
+                    <?php //echo jwOpt::get_option('footer_text', ''); ?>
+                Copyright 2016 &copy; by <a href="http://www.amptdesign.com" target="_blank">Ampt Design</a>.
                 </div>
                 <div class="col-lg-6 copyright-menu">
                     <?php wp_nav_menu(array('theme_location' => 'footer_navigation', 'menu_class' => 'template-footer-menu')); ?>
