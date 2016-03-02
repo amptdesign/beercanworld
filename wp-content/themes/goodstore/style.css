@@ -31,3 +31,8 @@ Tags: black, blue, pink, white, red, one-column, two-columns, three-columns, fou
 	color:#4e342e;
 	margin: 12% 0 12%;
 }
+
+#header .small-menu.row-menu-border {
+    border: none!important;
+    /*border-top: 1px solid #ddd;*/
+}
