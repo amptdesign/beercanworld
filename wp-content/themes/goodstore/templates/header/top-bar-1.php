@@ -29,7 +29,7 @@ if (jwOpt::get_option('top_bar_login_button', '0') == '0' && jwOpt::get_option('
     $show_left_area = 'show-mobiles';
 }
 ?>
-<div class="col-lg-<?php echo $left_area . ' ' . $show_left_area; ?>  top-bar-1-left">
+<div class="col-lg-4 hide-mobiles top-bar-1-left">
     <?php $icon = jwOpt::get_option('top_bar_span_icon', ''); ?>
     <?php if ($icon != '') { ?>
         <span class="top-bar-icon <?php echo $icon; ?>"></span>
@@ -39,7 +39,7 @@ if (jwOpt::get_option('top_bar_login_button', '0') == '0' && jwOpt::get_option('
         <span><?php echo do_shortcode($text); ?></span>
     <?php } ?>
 </div>
-<div class="col-lg-<?php echo $right_area; ?> top-bar-1-right">
+<div class="col-lg-8 top-bar-1-right">
     <ul>
         <?php if (jwOpt::get_option('top_bar_login_button', '0') == '1') { ?>
             <li class="top-bar-login-content" aria-haspopup="true">

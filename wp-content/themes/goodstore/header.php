@@ -40,6 +40,7 @@
         echo jwOpt::get_option('custom_js_header');
         wp_head();
         ?>  
+        <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
     </head>
 
     <?php
