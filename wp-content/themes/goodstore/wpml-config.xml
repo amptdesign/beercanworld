@@ -1,0 +1,11 @@
+<wpml-config>
+    <admin-texts>
+    <key name="goodstore_options">
+        <key name="error_custom_html" />
+        <key name="footer_text" />
+        <key name="top_bar_span_text" />
+    </key>
+    </admin-texts>
+</wpml-config>
+
+
