@@ -77,14 +77,14 @@ border: 1px solid #993300}
 .single-product div.product .entry-summary .socialshare-icon li a.link-google:hover {color: #DD4B38}
 .single-product div.product .entry-summary .socialshare-icon li a.link-pinterest:hover {color: #CB2027}
 .single-product div.product .entry-summary .socialshare-icon li a.link-email:hover {color: #c94732}
-body, body.custom-background  {background: url("http://localhost:20073/wp-content/themes/goodstore/images/bg_texture/dark_wood.png") repeat scroll 0 0 #ffffff !important;}
+body, body.custom-background  {background: url("http://localhost:20073/wp-content/uploads/2016/03/Wood-background-6-July-2014_03.jpg") no-repeat fixed 50% 0 #ffffff !important;}
 .container, .divider-center-text {background-color: #F7F7F7}
 .post-box .jaw-portfolio.gallery .carousel-control,#content article.content.format-gallery .jaw-gallery .carousel-control {background-color: #F7F7F7}
 .paralax .woocommerce .box,.comments-block .one-comment .comment-dot-border {background-color: #F7F7F7}
 .comments-block .one-comment .comment-dot {background-color: #993300;}
 .comments-block .one-comment .comment-arrow:before {color: #ebebeb}
 .timeTo-counter.boxed .timeTo .counter {background-color: #ebebeb;border: 1px solid #993300}
-.row-fullwidth .page-top.fullwidth-block {background: none repeat scroll 0 0 #993300}
+.row-fullwidth .page-top.fullwidth-block {background: none repeat scroll 0 0 #4f403d}
 .top-bar-1-left .top-bar-icon,
 .top-bar-1-right .icon-arrow-down-gs,
 .top-bar-1-right a span,

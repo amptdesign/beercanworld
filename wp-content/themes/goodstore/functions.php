@@ -588,6 +588,7 @@ function jaw_css() {
 
     wp_register_style('style', get_stylesheet_directory_uri() . '/style.css');
     wp_enqueue_style('style');
+    wp_enqueue_style('dashicons');
 
     if ((defined('JAW_DEBUG') && JAW_DEBUG == true)) {
         wp_register_style('bootstrap', get_template_directory_uri() . '/css/bootstrap.css', array(), jwUtils::assetsVersion());

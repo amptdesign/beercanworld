@@ -10,20 +10,49 @@ License URI: Located in 'licensing' folder
 Tags: black, blue, pink, white, red, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, responsive-layout, custom-menu, featured-images, microformats, post-formats, theme-options, sticky-post, translation-ready
 */
 
-
 .top-bar-1-left {
-	font-family: 'Ubuntu', sans-serif;
-	font-size: 16px;
+	/*font-family: 'Ubuntu', sans-serif;*/
+	font-family: verdana!important;	
+	font-size: 16px!important;
+	/*font-weight: 700;*/
+	text-transform: lowercase;
+	color:white;
+	line-height: 39px!important;
+}
+
+.top-bar-1-right {
+	font-family: verdana!important;	
+	font-size: 16px!important;
 	/*font-weight: 700;*/
 	text-transform: uppercase;
 	color:white;
+	line-height: 39px!important;
+}
+
+.top-bar-1-left.top-bar-icon, .top-bar-1-right .top-bar-icon {line-height: 39px!important;}
+
+.top-bar-1-left a,a:hover {color:white!important;}
+
+.top-bar-1-left a:hover {
+	color:white!important;
+	text-decoration: underline;
+}
+
+.header-padding {
+    line-height: 39px!important;
+}
+
+.row-fullwidth .page-top {
+    line-height: 39px!important;
+    /*min-height: 39px!important;*/
+    vertical-align: middle!important;
 }
 
 .fullwidth-block.header-small-content {
     background: url('images/header-bg-yel-white.png') repeat scroll 0 0 !important;
 }
 
-#text-28 .textwidget {
+#text-28 .textwidget, #text-29 .textwidget {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 18px;
 	font-weight: 500;
@@ -35,4 +64,13 @@ Tags: black, blue, pink, white, red, one-column, two-columns, three-columns, fou
 #header .small-menu.row-menu-border {
     border: none!important;
     /*border-top: 1px solid #ddd;*/
+}
+
+#footer .fullwidth-block {
+    /*background: url('images/footer.jpg') #7b2a0e repeat !important;*/
+    /*border-top: 1px solid #4e342e;*/
+}
+
+.header-widget-area {
+    padding-top: 0!important;
 }

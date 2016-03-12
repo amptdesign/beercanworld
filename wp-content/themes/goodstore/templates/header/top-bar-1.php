@@ -29,17 +29,21 @@ if (jwOpt::get_option('top_bar_login_button', '0') == '0' && jwOpt::get_option('
     $show_left_area = 'show-mobiles';
 }
 ?>
-<div class="col-lg-4 hide-mobiles top-bar-1-left">
-    <?php $icon = jwOpt::get_option('top_bar_span_icon', ''); ?>
-    <?php if ($icon != '') { ?>
-        <span class="top-bar-icon <?php echo $icon; ?>"></span>
-    <?php } ?>
-    <?php $text = jwOpt::get_option('top_bar_span_text', ''); ?>
-    <?php if ($text != '') { ?>    
-        <span><?php echo do_shortcode($text); ?></span>
-    <?php } ?>
+<div class="col-lg-6 hide-mobiles top-bar-1-left">
+    <span class="top-bar-icon dashicons dashicons-phone header-padding"></span>
+    <span>877.291.0926 &nbsp;</span>
+    <span class="top-bar-icon dashicons dashicons-email-alt header-padding"></span>
+    <span><a href="mailto:bill@beercanworld.com">bill@beercanworld.com</a></span>
+    <?php //$icon = jwOpt::get_option('top_bar_span_icon', ''); ?>
+    <?php //if ($icon != '') { ?>
+        <!-- <span class="top-bar-icon <?php //echo $icon; ?>"></span> -->
+    <?php //} ?>
+    <?php //$text = jwOpt::get_option('top_bar_span_text', ''); ?>
+    <?php //if ($text != '') { ?>    
+        <!-- <span><?php //echo do_shortcode($text); ?></span> -->
+    <?php //} ?>
 </div>
-<div class="col-lg-8 top-bar-1-right">
+<div class="col-lg-6 top-bar-1-right">
     <ul>
         <?php if (jwOpt::get_option('top_bar_login_button', '0') == '1') { ?>
             <li class="top-bar-login-content" aria-haspopup="true">
@@ -114,6 +118,7 @@ if (jwOpt::get_option('top_bar_login_button', '0') == '0' && jwOpt::get_option('
 
         <?php if (jwOpt::get_option('top_bar_search', '1') == '1') { ?>    
             <li>
+                <span class="header-padding">Search</span>
                 <?php
                 if (jwOpt::get_option('top_bar_search_type', 'wordpress') == 'woo' && class_exists('WooCommerce')) {
                     get_product_search_form();
