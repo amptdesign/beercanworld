@@ -469,7 +469,7 @@ if (!class_exists('jwStyle')) {
             }
             $bg_img_texture = substr(jwOpt::get_option('background_texture', $bg_images_url . 'none.png'), -8);
             if (strlen($background_img) > 0) {
-                $css .= "body, body.custom-background  {background: url(\"" . $background_img . "\") no-repeat fixed 50% 0 " . jwOpt::get_option('body_background_color', '#F1F4ED') . " !important;}" . PHP_EOL;
+                $css .= "body, body.custom-background  {background: url(\"" . $background_img . "\") repeat fixed 50% 0 " . jwOpt::get_option('body_background_color', '#F1F4ED') . " !important;}" . PHP_EOL;
             } else if (jwOpt::get_option('background_texture', $bg_images_url . 'none.png') != $bg_images_url . 'none.png' && jwOpt::get_option('background_image', '') == '' && $bg_img_texture != 'none.png' && jwOpt::get_option('background_texture', $bg_images_url . 'none.png') != 'no folder') {
                 $css .= "body, body.custom-background  {background: url(\"" . jwOpt::get_option('background_texture', $bg_images_url . 'lil_fiber.png') . "\") repeat scroll 0 0 " . jwOpt::get_option('body_background_color', '#F1F4ED') . " !important;}" . PHP_EOL;
             } else if (jwOpt::get_option('background_texture', $bg_images_url . 'none.png') == $bg_images_url . 'none.png' || $bg_img_texture == 'none.png') {
