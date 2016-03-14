@@ -62,7 +62,9 @@ Tags: black, blue, pink, white, red, one-column, two-columns, three-columns, fou
 }
 
 #header .small-menu.row-menu-border {
-    border: none!important;
+
+	border-bottom: solid 1px black !important;
+    /*border: none!important;*/
     /*border-top: 1px solid #ddd;*/
 }
 

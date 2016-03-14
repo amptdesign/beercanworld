@@ -120,7 +120,7 @@ class JawMenuFrontendWalker extends Walker_Nav_Menu {
 
         $item_output .= '<span class="jaw-menu-href-title">';
         $item_output .= $args->link_before . apply_filters('the_title', $item->title, $item->ID) . $args->link_after;
-        $item_output .= '</span>';
+        $item_output .= '</span> &nbsp; | ';
         $item_output .= '</a>';
         $item_output .= $args->after;
 
