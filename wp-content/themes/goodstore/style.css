@@ -14,6 +14,18 @@ Tags: black, blue, pink, white, red, one-column, two-columns, three-columns, fou
     background: url('images/bg_images/red_wood.jpg') repeat fixed 50% 0 #ffffff !important;
 }*/
 
+
+@media only screen and (min-width: 1280px) {
+	.woocommerce .product-style-1 .box h2 {
+		text-align: center;
+		width:273px!important;
+		font-size:1.4em!important;
+		margin-bottom:1px!important;
+		border-left:1px solid #e2e2e2;
+		border-right:1px solid #e2e2e2;
+		border-bottom:1px solid #e2e2e2;
+	}
+}
 ul.top-nav > li a:hover {color: #cc9900!important;}
 
 .top-bar-1-left {

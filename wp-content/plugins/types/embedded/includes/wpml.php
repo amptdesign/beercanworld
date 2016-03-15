@@ -1262,7 +1262,7 @@ function wp_types_default_language_warning()
 
 			$message = 'Because your default language is not English, you need to enter all strings in English and translate them to %s and %s.';
 			$message .= ' ';
-			$message .= '<strong><a href="%s" target="_blank">Read more</a></strong>';
+			$message .= '<strong><a href="%s" target="_blank">Details</a></strong>';
 
 			$message = __( $message, 'Read more string-translation-default-language-not-english', 'wpml-string-translation' );
 			$message = sprintf( $message, $translation_languages_list, $last_translation_language, 'http://wpml.org/faq/string-translation-default-language-not-english/' );

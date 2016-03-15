@@ -74,12 +74,8 @@ if (class_exists('WooCommerce')) {
                 </h2>   <!-- Title -->
                 <?php echo jwUtils::crop_length(jwRender::get_the_excerpt(), jaw_template_get_var('letter_excerpt', jwOpt::get_option('letter_excerpt', -1))); ?>
                 <div class="clear"></div>   
-                <div class="product-box-info">
-
-
-
-                    <div class="rating <?php echo esc_attr(implode(' ', $class_rating)); ?>">
-                        <?php echo $rating; ?>  <!-- RATING -->
+                <!-- <div class="product-box-info"><div class="rating <?php echo esc_attr(implode(' ', $class_rating)); ?>">
+                        <?php echo $rating; ?>  
                         <div class="clear"></div>
                     </div>
                     <?php
@@ -103,7 +99,7 @@ if (class_exists('WooCommerce')) {
                     <?php } ?>
 
                     <div class="clear"></div>    
-                </div>
+                </div> -->
 
                 <?php do_action('woocommerce_after_shop_loop_item_title'); ?>
                 <?php do_action('woocommerce_after_shop_loop_item'); ?>
