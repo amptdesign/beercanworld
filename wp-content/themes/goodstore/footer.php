@@ -1,54 +1,45 @@
 
 </div><!-- End Main row -->
-<?php
-$has_featured = '';
-if ((jwOpt::get_option('footer_featured_show', 'off') == 'homepage' && is_front_page()) || (jwOpt::get_option('footer_featured_show', 'off') == 'allweb')) {
-    ?>
-    <div class="row-fullwidth">
-        <div class="fullwidth-block row featured-footer-content">
-            <?php
-            echo jaw_get_template_part('footer-featured-area', 'footer');
-            $has_featured = 'with_featured';
-            ?>
-        </div></div>	
-<?php } ?>
-<footer id="footer" class="<?php echo $has_featured; ?>" role="contentinfo">
 
-    <div class="row-fullwidth">
-        <div class="fullwidth-block row footer-content">
-            <?php
-            if (jwOpt::get_option('footer_style', 'footer-12') == 'footer-12') {
-                echo jaw_get_template_part('footer-12', 'footer');
-            } else if (jwOpt::get_option('footer_style', 'footer-3-3-3-3') == 'footer-6-6') {
-                echo jaw_get_template_part('footer-6-6', 'footer');
-            } else if (jwOpt::get_option('footer_style', 'footer-3-3-3-3') == 'footer-3-3-3-3') {
-                echo jaw_get_template_part('footer-3-3-3-3', 'footer');
-            } else if (jwOpt::get_option('footer_style', 'footer-4-4-4') == 'footer-4-4-4') {
-                echo jaw_get_template_part('footer-4-4-4', 'footer');
-            } else {
-                echo jaw_get_template_part('footer-4-8', 'footer');
-            }
-            ?>            
+
+
+<div id="header">
+<div class="row-fullwidth">
+<div class="fullwidth-block row header-small-content header-small-center-content ">
+        <div class="col-lg-4 header-widget-area">
+        <article id="text-29" class="widget widget_text">           
+        <div class="textwidget"><?php wp_nav_menu(array('theme_location' => 'footer_navigation', 'menu_class' => 'template-footer-menu')); ?></div>
+        </article>
         </div>
 
-        <?php if (jwOpt::get_option('show_copyright', 'on') == 'on') { ?>
-            <div id="copyright" class="fullwidth-block row footer-content">            
-                <div class="col-lg-6">
-                    <?php //echo jwOpt::get_option('footer_text', ''); ?>
-                Copyright 2016 &copy; by <a href="http://www.amptdesign.com" target="_blank">Ampt Design</a>.
-                </div>
-                <div class="col-lg-6 copyright-menu">
-                    <?php wp_nav_menu(array('theme_location' => 'footer_navigation', 'menu_class' => 'template-footer-menu')); ?>
-                </div>
-            </div>
-        <?php } ?>
+        <div class="col-lg-4 header-logo footer-logo">
+        <h1><a href="http://localhost:20073" title="Beercan World"><img class="template-logo" src="http://localhost:20073/wp-content/themes/goodstore/images/logo/logo.png" alt="Beercan World"></a></h1><br>
+        <div class="footer-logo-text">
+        <span class="dashicons dashicons-phone"></span> &nbsp;877.291.0926<br>
+        <span class="dashicons dashicons-email-alt"></span> &nbsp;<a href="mailto:bill@beercanworld.com">bill@beercanworld.com</a><br>
+        
+        </div>
+        </div>
+        <div class="col-lg-4 header-widget-area">
+        <article id="text-28" class="widget widget_text">
+        <div class="textwidget"><br><br><b>Don’t trust just anyone</b> with your potentially valuable beer cans! <br><br>
+        <b>Bill has 37 years of experience</b> collecting, appraising and appreciating beer cans!<br><br>
+        “<b>Call me first</b> and I guarantee you will not be disappointed!” - Bill 
+        </div>
+        </article>        
+        </div>
+</div>                     
+</div>
+</div>
 
-    </div>
+<div class="row-fullwidth">
+<div class="fullwidth-block row footer-new">
+<p class="footer-text">Beer Can World © 2016 &nbsp; -- &nbsp; Designed by <u><a href="http://www.amptdesign.com">Ampt Design</a></u>.</div>
+</div>
+</div>
 
 
-
-</footer>
-
+<!-- <footer id="footer" class="" role="contentinfo"><p class="footer-text">Designed by <a href="http://www.amptdesign.com">Ampt Design</a>.</footer>  -->
 
 
 </div><!-- End the template box -->

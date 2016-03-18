@@ -14,6 +14,48 @@ Tags: black, blue, pink, white, red, one-column, two-columns, three-columns, fou
     background: url('images/bg_images/red_wood.jpg') repeat fixed 50% 0 #ffffff !important;
 }*/
 
+.container { background-color: rgba(247,247,247,0.65)!important; }
+
+
+.meet-bill-text{ 
+	font-size: 1.2em;
+	width:66%; 
+	background-color: #fff;
+	margin:0;
+	padding:3%;
+	border-radius: 5px;
+	border:3px solid #b2cbac;
+
+}
+
+.wpcf7 p {
+	font-size:1.3em;
+	color:#4f403d;
+	font-weight: 500;
+}
+
+.wpcf7 input, textarea {border-radius: 5px;}
+
+#text-28 .textwidget, #text-29 .textwidget {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    /* text-transform: uppercase; */
+    color: #4e342e;
+    margin: 10% 0 0% !important;
+}
+
+.section-big-wrapper {
+    text-align: center;
+    border:none!important;
+}
+
+h3.section-big {
+    /*color: #cc9900;*/
+    color: #4F403D!important;
+    border-bottom: 3px double #4F403D !important;
+    font-size: 22px;
+}
 
 @media only screen and (min-width: 1280px) {
 	.woocommerce .product-style-1 .box h2 {
@@ -25,7 +67,26 @@ Tags: black, blue, pink, white, red, one-column, two-columns, three-columns, fou
 		border-right:1px solid #e2e2e2;
 		border-bottom:1px solid #e2e2e2;
 	}
+
+	.fullwidth-block.header-small-content { background: url('images/header-bg-yel-white.png') repeat scroll 0 0 !important; }
+
+	.template-logo img {
+	    height:253px;
+	    width:375px;
+	}
+
+	.footer-logo img {
+		height:auto;
+		width:80%;
+	}
+
+	.footer-logo-text {margin-left:-50px;}
+
+	.footer-text {
+		margin: 5px 0 0px -85px;
+	}
 }
+ul.top-nav > li a, a:link, a:visited, a:active {color: #fff!important;}
 ul.top-nav > li a:hover {color: #cc9900!important;}
 
 .top-bar-1-left {
@@ -66,9 +127,7 @@ ul.top-nav > li a:hover {color: #cc9900!important;}
     vertical-align: middle!important;
 }
 
-.fullwidth-block.header-small-content {
-    background: url('images/header-bg-yel-white.png') repeat scroll 0 0 !important;
-}
+
 
 #text-28 .textwidget, #text-29 .textwidget {
 	font-family: 'Ubuntu', sans-serif;
@@ -93,4 +152,81 @@ ul.top-nav > li a:hover {color: #cc9900!important;}
 
 .header-widget-area {
     padding-top: 0!important;
+}
+
+.footer-new {
+	background-color: #4F403D !important;
+}
+
+.footer-text {
+	padding:20px 0 15px;
+	color:#fff;
+	font-size:1.2em;
+	text-align: center;
+}
+.footer-txt a,.footer-txt a:link,.footer-txt a:hover,.footer-txt a:visited,.footer-txt a:active {color:#fff!important;}
+
+.footer-logo-text {
+	color:#000!important; 
+	font-size:1.3em;
+}
+.footer-logo-text a, .footer-logo-text a:link, .footer-logo-text a:visited, .footer-logo-text a:active {
+	color:#000!important;
+}
+.footer-logo-text a:hover {
+	color:#000!important; 
+	text-decoration: underline;
+}
+
+
+.menu-footer-menu-container {
+	margin:25% 0 0 15%;
+	color:#000;
+}
+.menu-footer-menu-container a,.menu-footer-menu-container a:link,.menu-footer-menu-container a:visited,.menu-footer-menu-container a:active {
+	color:#000!important;
+	vertical-align: top;
+	margin:0 0 0 2px;
+}
+.menu-footer-menu-container a:hover {
+	color:#000!important;
+	vertical-align: top;
+	margin:0 0 0 2px;
+	text-decoration: underline;
+}
+
+.menu-footer-menu-container ul {
+    list-style-image: url('images/beercan.png');
+}
+
+.footer-logo {text-align: center;}
+
+.product-categories a,.product-categories a:link,.product-categories a:hover,.product-categories a:visited,.product-categories a:active 
+{color:#000!important;}
+
+.category-bar .woocommerce-result-count {
+    color: #cc9900;
+    font-size: 1.8em;
+    vertical-align: top;
+    margin-top:-14px;
+}
+
+.woo-orderby-form-list {
+	background-color: #cc9900!important;
+	border:1px solid #fff!important;
+}
+
+.woo-orderby-form {
+	background-color: #fff;
+	display:none;
+}
+
+.category-bar .woocommerce-result-count {
+    color: #cc9900;
+    font-size: 1.8em;
+    vertical-align: top;
+    margin-top: -14px;
+    background-color: rgba(255,255,255,0.6);
+    border-radius: 10px;
+    padding: 3px;
 }
