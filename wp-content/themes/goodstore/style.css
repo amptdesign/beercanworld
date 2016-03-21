@@ -231,5 +231,42 @@ ul.top-nav > li a:hover {color: #cc9900;}
     padding: 3px;
 }
 
-.accordion-toggle a,.accordion-toggle a:link,.accordion-toggle a:hover,.accordion-toggle a:visited,.accordion-toggle a:active 
-{color:#000!important;}
+.panel-heading a,.panel-heading a:link,.panel-heading a:hover,.panel-heading a:visited,.panel-heading a:active {
+	color:#000!important;
+	text-transform: uppercase;
+}
+
+.accordion .panel-title a:before {
+    line-height: 18px;
+    content: "\e610";
+    font-family: jaw-icon;
+    font-size: 18px;
+    margin-right: 10px;
+    top: 2px;
+    color:#000!important;
+}
+.lingo-img {
+	display:inline-block;
+	float:left;
+}
+.lingo-text {
+	display:inline-block;
+	float:right;
+	width:70%;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+
+		.lingo-img {
+			display:block;
+			float:left;
+		}
+		.lingo-text {
+			display:block;
+			float:left;
+			width:auto;
+		}
+
+	}
