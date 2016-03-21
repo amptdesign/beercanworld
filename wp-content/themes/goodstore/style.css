@@ -86,8 +86,8 @@ h3.section-big {
 		margin: 5px 0 0px -85px;
 	}
 }
-ul.top-nav > li a, a:link, a:visited, a:active {color: #fff!important;}
-ul.top-nav > li a:hover {color: #cc9900!important;}
+ul.top-nav > li a, a:link, a:visited, a:active {color: #fff;}
+ul.top-nav > li a:hover {color: #cc9900;}
 
 .top-bar-1-left {
 	/*font-family: 'Ubuntu', sans-serif;*/
@@ -227,6 +227,9 @@ ul.top-nav > li a:hover {color: #cc9900!important;}
     vertical-align: top;
     margin-top: -14px;
     background-color: rgba(255,255,255,0.6);
-    border-radius: 10px;
+    border-radius: 3px;
     padding: 3px;
 }
+
+.accordion-toggle a,.accordion-toggle a:link,.accordion-toggle a:hover,.accordion-toggle a:visited,.accordion-toggle a:active 
+{color:#000!important;}
