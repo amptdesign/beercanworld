@@ -58,6 +58,13 @@ h3.section-big {
 }
 
 @media only screen and (min-width: 1280px) {
+
+	.lingo-img { margin-left: 26px; }
+	.lingo-text {
+		margin: 10px 0 0 26px;
+
+	}
+
 	.woocommerce .product-style-1 .box h2 {
 		text-align: center;
 		width:273px!important;
@@ -251,8 +258,8 @@ ul.top-nav > li a:hover {color: #cc9900;}
 }
 .lingo-text {
 	display:inline-block;
-	float:right;
-	width:70%;
+	/*float:right;*/
+	/*width:70%;*/
 }
 
 
