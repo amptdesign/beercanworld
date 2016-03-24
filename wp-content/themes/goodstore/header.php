@@ -122,7 +122,13 @@
                         ?>                        
                     </div>
                     <!-- Row for main content area -->
-                    <div id="main" class="row">                                                
+                    <div id="main" class="row">  
+                    <?php 
+                    if (is_page('meet-bill')) { echo "<h3 class='section-big b-header'>Meet Bill</h3>"; }
+                    if (is_page('contact-bill')) { echo "<h3 class='section-big b-header'>Contact Bill</h3>"; }
+                    if (is_page('sell-your-cans')) { echo "<h3 class='section-big b-header'>Sell Your Cans</h3>"; }
+
+                    ?>
                         <?php
                         if (jwOpt::get_option('blog_featured_show', 'off') != 'off') {
                             if (jwOpt::get_option('blog_featured_show', 'off') == 'homepage' && is_front_page()) {
@@ -134,4 +140,6 @@
                             <div class="clear"></div>
                             <?php
                         }
+
+                        
                         

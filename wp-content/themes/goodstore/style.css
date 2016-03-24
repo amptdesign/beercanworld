@@ -17,7 +17,7 @@ Tags: black, blue, pink, white, red, one-column, two-columns, three-columns, fou
 .container { background-color: rgba(247,247,247,0.65)!important; }
 
 
-.meet-bill-text{ 
+.meet-bill-text, .sell-cans-text{ 
 	font-size: 1.2em;
 	width:66%; 
 	background-color: #fff;
@@ -26,6 +26,14 @@ Tags: black, blue, pink, white, red, one-column, two-columns, three-columns, fou
 	border-radius: 5px;
 	border:3px solid #b2cbac;
 
+}
+
+.wpcf7 input, .wpcf7 textarea {border:3px solid #b2cbac!important;}
+
+.wpcf7 .wpcf7-submit {background-color: #b2cbac!important;}
+
+.sell-cans-text {
+	width:100%;
 }
 
 .wpcf7 p {
@@ -57,7 +65,17 @@ h3.section-big {
     font-size: 22px;
 }
 
+.b-header {
+    text-align: center;
+    margin: 3% 45% 0!important;
+    white-space: nowrap;
+}
+
+
+
 @media only screen and (min-width: 1280px) {
+
+	/*#wpcf7-f5-p3054-o2 { margin-top:40px!important; }*/
 
 /*	.section-big-wrapper {
 	    text-align: left;
@@ -99,9 +117,13 @@ h3.section-big {
 	}
 
 /*	article.widget {
-	    margin-bottom: 65px!important;
-	    margin-top: 0;
-	}*/
+    margin-bottom: 4px;
+    margin-top: 0;
+}*/
+
+	article.widget {
+	    margin: 4px 0 0 0!important;
+	}
 }
 ul.top-nav > li a, a:link, a:visited, a:active {color: #fff;}
 ul.top-nav > li a:hover {color: #cc9900;}
@@ -157,7 +179,7 @@ ul.top-nav > li a:hover {color: #cc9900;}
 
 #header .small-menu.row-menu-border {
 
-	border-bottom: solid 1px black !important;
+	border: solid 1px #993300 !important;
     /*border: none!important;*/
     /*border-top: 1px solid #ddd;*/
 }
