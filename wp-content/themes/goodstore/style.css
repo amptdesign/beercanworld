@@ -59,9 +59,14 @@ h3.section-big {
 
 @media only screen and (min-width: 1280px) {
 
+/*	.section-big-wrapper {
+	    text-align: left;
+	    margin: 0 0 0 19%;
+	}*/
+
 	.lingo-img { margin-left: 26px; }
 	.lingo-text {
-		margin: 10px 0 0 26px;
+		/*margin: 10px 0 0 26px;*/
 
 	}
 
@@ -92,6 +97,11 @@ h3.section-big {
 	.footer-text {
 		margin: 5px 0 0px -85px;
 	}
+
+/*	article.widget {
+	    margin-bottom: 65px!important;
+	    margin-top: 0;
+	}*/
 }
 ul.top-nav > li a, a:link, a:visited, a:active {color: #fff;}
 ul.top-nav > li a:hover {color: #cc9900;}
@@ -177,9 +187,14 @@ ul.top-nav > li a:hover {color: #cc9900;}
 	color:#000!important; 
 	font-size:1.3em;
 }
+.meet-bill-text a, .meet-bill-text a:link, .meet-bill-text a:visited, .meet-bill-text a:active {
+	color:#000!important;
+	text-decoration: underline;
+}
 .footer-logo-text a, .footer-logo-text a:link, .footer-logo-text a:visited, .footer-logo-text a:active {
 	color:#000!important;
 }
+.meet-bill-text a:hover,
 .footer-logo-text a:hover {
 	color:#000!important; 
 	text-decoration: underline;
@@ -258,8 +273,8 @@ ul.top-nav > li a:hover {color: #cc9900;}
 }
 .lingo-text {
 	display:inline-block;
-	/*float:right;*/
-	/*width:70%;*/
+	float:right;
+	width:55%;
 }
 
 

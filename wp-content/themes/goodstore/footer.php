@@ -38,7 +38,6 @@
 </div>
 </div>
 
-
 <!-- <footer id="footer" class="" role="contentinfo"><p class="footer-text">Designed by <a href="http://www.amptdesign.com">Ampt Design</a>.</footer>  -->
 
 
