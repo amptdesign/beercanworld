@@ -13,7 +13,7 @@
         </div>
 
         <div class="col-lg-4 header-logo footer-logo">
-        <h1><a href="http://localhost:20073" title="Beercan World"><img class="template-logo" src="http://localhost:20073/wp-content/themes/goodstore/images/logo/logo.png" alt="Beercan World"></a></h1><br>
+        <h1><a href="http://localhost:20073" title="Beercan World"><img class="template-logo" src="<?php bloginfo('template_url'); ?>/images/logo/logo.png" alt="Beercan World"></a></h1><br>
         <div class="footer-logo-text">
         <span class="dashicons dashicons-phone"></span> &nbsp;877.291.0926<br>
         <span class="dashicons dashicons-email-alt"></span> &nbsp;<a href="mailto:bill@beercanworld.com">bill@beercanworld.com</a><br>
