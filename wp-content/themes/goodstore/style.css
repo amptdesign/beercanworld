@@ -298,6 +298,16 @@ ul.top-nav > li a:hover {color: #cc9900;}
 	width:55%;
 }
 
+/* SEARCH RESULTS */
+/*.jaw-search-content .jaw-tabs .nav-tabs > li.active > a { 
+    border-color: transparent!important;
+    border-bottom-color: transparent!important;
+	border: none!important; 
+}
+
+.jaw-search-content .nav-tabs{ 
+	border: none!important; 
+}*/
 
 @media only screen and (max-width: 600px) {
 		.meet-bill-text, .sell-cans-text{ 

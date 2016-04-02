@@ -10,7 +10,7 @@
         <title><?php wp_title(); ?></title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
         <!-- Favicon and Feed -->
-        <link rel="shortcut icon" type="image/png" href="<?php echo get_template_directory_uri() . '/favicon.png'; ?>">
+        <link rel="shortcut icon" type="image/png" href="<?php echo THEME_URI . '/favicon.png'; ?>">
         <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> Feed" href="<?php echo home_url(); ?>/feed/">
         <?php
         if (function_exists('wp_get_theme')) {
