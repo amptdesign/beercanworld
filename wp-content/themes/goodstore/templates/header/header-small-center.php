@@ -18,13 +18,13 @@
             <?php
             $template_logo = jwOpt::get_option('custom_logo', THEME_URI . '/images/logo/logo.png');
             if (strlen($template_logo) == 0) {
-                $template_logo = THEME_URI . '/images/logo/logo.png';
+               $template_logo = THEME_URI . '/images/logo/logo.png';
             }
-            $sizes = getimagesize($template_logo);
-            $attr = '';
-            if(isset($sizes[3])){
-                $attr = $sizes[3];
-            }
+            // $sizes = getimagesize($template_logo);
+            // $attr = '';
+            // if(isset($sizes[3])){
+                // $attr = $sizes[3];
+            // }
             ?>
             <?php if (jwOpt::get_option('use_jaw_seo_logo', '1') == '1') { ?>
                 <h1>
@@ -32,7 +32,8 @@
                     <p>
                     <?php } ?>
                     <a href="<?php echo home_url(); ?>" title="<?php bloginfo('name'); ?>">
-                        <img class="template-logo" src="<?php echo $template_logo; ?>" <?php echo $attr;?> alt="<?php bloginfo('name'); ?>">
+                        <!-- <img class="template-logo" src="<?php echo $template_logo; ?>" <?php echo $attr;?> alt="<?php bloginfo('name'); ?>"> -->
+                        <img class="template-logo" src="<?php echo THEME_URI . '/images/logo/logo.png'; ?>" alt="<?php bloginfo('name'); ?>">
                     </a>
                     <?php if (jwOpt::get_option('use_jaw_seo_logo', '1') == '1') { ?>
                 </h1>
