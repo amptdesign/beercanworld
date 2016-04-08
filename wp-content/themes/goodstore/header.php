@@ -83,9 +83,23 @@
                 <?php if (jwOpt::get_option('top_bar', 'on') == 'on') { ?>
                     <div class="row-fullwidth">
                         <div class="page-top fullwidth-block row">
-                            <?php
-                            echo jaw_get_template_part('top-bar-1', 'header');
-                            ?>
+                                <div class="col-lg-6 hide-mobiles top-bar-1-left">
+                                        <span class="top-bar-icon dashicons dashicons-phone header-padding"></span>
+                                        <span>877.291.0926 &nbsp;</span>
+                                        <span class="top-bar-icon dashicons dashicons-email-alt header-padding"></span>
+                                        <span><a href="/contact-bill/">bill@beercanworld.com</a></span>
+                                        <!-- <span class="top-bar-icon "></span> -->
+                                        <!-- <span></span> -->
+                                </div>
+                                <div class="col-lg-6 top-bar-1-right"><ul><li><span class="header-padding">Search</span>
+                                        <form role="search" method="get" id="searchform" action="http://www.beercanworld.com/">
+                                            <div class="search-box">        
+                                                <div class="search-input"><input type="text" value="" name="s" id="s" placeholder=""></div>
+                                                <div class="search-button"><button type="submit" id="searchsubmit" value="" class=""><span></span></button></div>
+                                            </div>
+                                        </form></li></ul>
+                                </div> 
+                            <?php //echo jaw_get_template_part('top-bar-1', 'header'); ?>
                         </div>
                     </div> 
                 <?php } ?>
