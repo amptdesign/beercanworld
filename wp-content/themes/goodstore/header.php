@@ -85,7 +85,7 @@
                         <div class="page-top fullwidth-block row">
                                 <div class="col-lg-6 hide-mobiles top-bar-1-left">
                                         <span class="top-bar-icon dashicons dashicons-phone header-padding"></span>
-                                        <span>877.291.0926 &nbsp;</span>
+                                        <span>877.291.0326 &nbsp;</span>
                                         <span class="top-bar-icon dashicons dashicons-email-alt header-padding"></span>
                                         <span><a href="/contact-bill/">bill@beercanworld.com</a></span>
                                         <!-- <span class="top-bar-icon "></span> -->

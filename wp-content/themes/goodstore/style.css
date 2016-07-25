@@ -325,3 +325,95 @@ ul.top-nav > li a:hover {color: #cc9900;}
 		}
 
 	}
+
+/*a.post_name, a.entry-summary {
+	color:#4f403d!important;
+    font-size: 14pt;
+    letter-spacing: 0.5px;
+    text-decoration: none!important;
+}
+a.post_name:hover, a.post_name:active {
+    color: #930!important;
+    font-size: 14pt;
+    font-weight: 600;
+    text-decoration: underline!important;
+}
+
+
+.single-product div.product .entry-summary a:hover {
+	color: #930!important;
+}
+
+.posted_in a, .tagged_as a {
+	text-decoration: underline;
+	color: #930;
+}
+
+.posted_in a:hover, .tagged_as a:hover {
+	text-decoration: underline;
+	color: #930;
+	font-weight:600;
+}*/
+
+
+/*.single-product div.product .entry-summary a*/
+
+/*    margin-top: 0;
+    margin-bottom: 1px;
+    background: #cc9900;
+     background-color: #cc9900; 
+    margin: -28px -6px 10px -6px;
+    padding: 10px 33px 9px 38px;*/
+
+.posted_in a, .tagged_as a {
+	text-decoration: underline;
+	/*color: #930!important;*/
+}
+
+.posted_in a:hover, .tagged_as a:hover {
+	text-decoration: underline;
+	color: #930!important;
+	font-weight:600;
+}
+
+.product_meta span.posted_in, .product_meta span.sku_wrapper, .product_meta span.tagged_as {
+    line-height: 30px!important;
+}
+
+.single-product div.product .entry-summary,.variations label {
+	font-size:16px;
+}
+
+.woocommerce .product-style-0 .product-box {
+    padding: 5px 0px 4px 0 !important;
+    background-color: #cc9900;
+    margin: -20px -3px 0 0 !important;
+    vertical-align: middle;
+    font-size: 14px;
+    line-height: 25px !important;
+    font-weight: 500;
+}
+
+.row .woocommerce .box h2 {
+    font-size: 18px!important;
+}
+
+.carousel.navigation-side .carousel-control.left, .carousel.navigation-side .carousel-control.right {
+    background: rgba(204,153,0,1) !important;
+    border: 1px solid rgba(255,255,255,0.4);
+}
+
+.woocommerce .product-style-1 .box:hover {
+    border: 1px solid #cc9900!important;
+}
+
+@media only screen and (min-width: 1280px) {
+		.woocommerce .product-style-0 .box {
+		    border: 1px #fff;
+		    padding: 3px !important
+		}
+		.woocommerce .product-style-0 .box:hover {
+		    border: 1px solid #cc9900;
+		    padding: 2px !important
+		}
+}
